@@ -7,7 +7,7 @@ data:extend({
         order = "z-a",
         prerequisites = {},
         unit = {
-            count = 100,
+            count = 10,
             ingredients = {
                 { "automation-science-pack", 1 },
             },
@@ -18,6 +18,7 @@ data:extend({
                 type = "unlock-space-location",
                 space_location = "afsw-empty-island",
             },
+            { type = "unlock-recipe", recipe = "landfill" },
         },
     },
 })
